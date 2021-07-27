@@ -13,6 +13,7 @@ import styles from './index.less';
 
 // @DragDropContext(HTML5Backend)
 export default function EditPage() {
+  console.log('editpage');
   return (
     <div>
       <DndProvider backend={HTML5Backend}>
